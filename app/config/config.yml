@@ -71,3 +71,14 @@ doctrine_cache:
             type: %cache_type%
             file_system:
                 directory: %kernel.cache_dir%/markdown_cache
+
+fos_user:
+    db_driver: orm # other valid values are 'mongodb' and 'couchdb'
+    firewall_name: main
+    user_class: AppBundle\Entity\User
+    from_email:
+        address: "wei@die-etagen.de"
+        sender_name: "Ning Wei%"
+
+
+
