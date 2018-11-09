@@ -79,6 +79,9 @@ fos_user:
     from_email:
         address: "wei@die-etagen.de"
         sender_name: "Ning Wei%"
+    registration:
+        form:
+            type: AppBundle\Form\RegistrationFormType
 
 
 
